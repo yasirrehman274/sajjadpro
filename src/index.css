@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+nav a {
+  color: rgb(236 72 153);
+  font-weight: 500;
+}
+
+.animation {
+  animation: float 10s infinite linear;
+}
+@keyframes float {
+  0% {
+    transform: translateX(-150px);
+  }
+  100% {
+    transform: translateX(1600px);
+  }
+}
